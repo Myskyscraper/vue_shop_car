@@ -1,0 +1,154 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,img,br,hr,table,tr,td,dl,dt,dd,form {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	color: #434343;
+}
+
+.clear {
+	clear: both;
+	font-size: 0px;
+}
+ul,li {
+	list-style: none;
+}
+img {
+	border: none;
+}
+/*一般链接*/
+a {
+	text-decoration: none;
+	color: #555;
+}
+a: hover {
+	color: #3366ff;
+}
+
+/*复制开始地方*/
+
+.item-list {
+    border-style: solid;
+    border-width: 2px 1px 1px;
+    _border-width: 1px;
+    border-color: #aaa #f1f1f1 #f1f1f1;
+    background: #fff;
+}
+
+.list_title{
+	width: 1200px;
+	height: 60px;
+	margin: 30px auto;
+	display: flex;
+	background: #3a3a3a;
+	color: #fff;
+}
+
+.w30{
+	display: block;
+	float: left;
+	width: 30%;
+	height: 60px;
+}
+
+
+.list_title span{
+	flex: 1;
+	color: #fff;
+	line-height: 60px;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+.list_title .shop_inf{
+	flex: 4;
+	text-align: left;
+}
+
+.cart_body{
+	width: 1200px;
+	min-height:60px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.item_form{
+	display: flex;
+    min-height: 123px;
+    line-height: 85px;
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 30px;
+}
+
+.item_check{
+	flex: 1;
+}
+
+.item_img{
+	flex: 1;
+}
+
+.item_img img{
+	display: block;
+	width: 69px;
+	height: 80px;
+}
+.item_form div{
+	flex:1;
+	text-align: center;
+}
+
+.item_form .item_inf{
+	flex: 3;
+}
+
+.item_num input{
+	display: inline-block;
+	width: 60px;
+}
+
+.icon_logo{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.item_foot{
+	height: 50px;
+	display: flex;
+	line-height: 50px;
+	text-align: center;
+}
+.item_cancel{
+	flex: 1;
+}
+
+ .item_spc6{
+	flex: 6;
+}
+
+ .item_allprize{
+	flex: 1;
+}
+
+.item_solvebtn{
+	flex: 1;
+	height: 30px;
+	background: #b62a21;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.item_ops{
+	cursor: pointer;
+}

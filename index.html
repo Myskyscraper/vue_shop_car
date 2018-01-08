@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>头部</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+
+</head>
+<body>
+
+	<div class="wrap-con" id="wrap-con">
+		
+
+		<!-- 购物车开始 -->
+		<div class="list_title">
+			<span class="shop_spc"></span>
+			<span class="shop_inf">商品信息</span>
+			<span class="shop_pri">商品金额</span>
+			<span class="shop_num">商品数量</span>
+			<span class="shop_sum">总金额</span>
+			<span class="shop_ops">编辑</span>
+		</div>
+
+
+		<ul class="cart_body">
+			
+				<li class="item_form">
+					<div class="item_check">
+						<input type="checkbox">
+					</div>
+
+					<div class="item_img">
+						<img src="img/58d1617bN614200f1.jpg" alt="">
+
+					</div>
+
+					<div class="item_inf">{{productListName}}</div>
+
+					<div class="item_pri">19</div>
+
+					<div class="item_num">
+						<span class="icon_logo">-</span><input type="text"/><span class="icon_logo">+</span>
+					</div>
+					
+					<div class="item_sum">12</div>
+
+					<div class="item_ops" v-on:click="show">编辑</div>
+
+				</li>
+
+				<li class="item_form">
+					<div class="item_check">
+						<input type="checkbox">
+					</div>
+
+					<div class="item_img">
+						<img src="img/58d1617bN614200f1.jpg" alt="">
+
+					</div>
+
+					<div class="item_inf">Apple iPad 平板电脑 9.7英寸（32G WLAN版/A9 芯片/Retina显示</div>
+
+					<div class="item_pri">19</div>
+
+					<div class="item_num">
+						<span class="icon_logo">-</span><input type="text"/><span class="icon_logo">+</span>
+					</div>
+					
+					<div class="item_sum">12</div>
+
+					<div class="item_ops">编辑</div>
+
+				</li>
+
+
+				<li class="item_form">
+					<div class="item_check">
+						<input type="checkbox">
+					</div>
+
+					<div class="item_img">
+						<img src="img/58d1617bN614200f1.jpg" alt="">
+
+					</div>
+
+					<div class="item_inf">Apple iPad 平板电脑 9.7英寸（32G WLAN版/A9 芯片/Retina显示</div>
+
+					<div class="item_pri">19</div>
+
+					<div class="item_num">
+						<span class="icon_logo">-</span><input type="text"/><span class="icon_logo">+</span>
+					</div>
+					
+					<div class="item_sum">12</div>
+
+					<div class="item_ops">编辑</div>
+
+				</li>
+					<!-- 总金额合计 -->
+				<li class=" item_foot">
+					<div class="item_check">
+						<input type="checkbox">全选
+					</div>
+					<div class="item_cancel">
+						取消全选
+					</div>
+
+					<div class="item_spc6"></div>
+
+					<div class="item_allprize">255</div>
+					
+					<div class="item_solvebtn">
+						结账
+					</div>	
+
+					
+
+				</li>
+
+
+				
+
+
+
+
+			</ul>
+
+
+
+
+
+<h3>{{title}}</h3>
+
+		
+		<!-- 购物车结束 -->
+	</div>
+
+
+
+
+<script type="text/javascript" src="js/vue.min.js"></script>
+<script type="text/javascript" src="js/axios.min.js"></script>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
